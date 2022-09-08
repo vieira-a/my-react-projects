@@ -5,7 +5,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function AppNavbar(){
     return(
-        <Navbar bg="light" expand="lg">
+      <Navbar bg="light" expand="lg">
       <Container>
         <Navbar.Brand href="#home">Imersão Dev Alura com React JS</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
