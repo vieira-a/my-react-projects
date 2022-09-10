@@ -1,3 +1,4 @@
+import React from "react";
 import TemperatureHeader from "../components/TemperatureHeader";
 import TemperatureConvertValue from "../components/TemperatureConvertValue";
 import TemperatureSelect from "../components/TemperatureSelect";
@@ -18,6 +19,7 @@ function TemperatureConverter() {
 let temperatureToConvert = 0;
 let selectTemperature = 'celcius';
 let tempResult = 0;
+
 
 window.onload = function(){ 
     
@@ -98,6 +100,8 @@ window.onload = function(){
     }
     getValueToConvert();
     getBaseTemperature();
-}
 
-export default TemperatureConverter;
+
+
+}
+export default TemperatureConverter
