@@ -4,8 +4,6 @@ import Navigation from './components/Navigation';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Home from './pages/Home';
 import TemperatureConverter from './pages/Temperatures';
-import { render } from '@testing-library/react';
-
 
 function App() {
     return (
@@ -19,9 +17,5 @@ function App() {
         </Router>
     );
 }
-
-render(
-    <TemperatureConverter/>
-)
 
 export default App;

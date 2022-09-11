@@ -13,13 +13,12 @@ function TemperatureConverter() {
             <TemperatureSelect/>
             <TemperatureResult/></div>
         </div>
-    )   
+    );   
 }
 
 let temperatureToConvert = 0;
 let selectTemperature = 'celcius';
 let tempResult = 0;
-
 
 window.onload = function(){ 
     
@@ -100,8 +99,6 @@ window.onload = function(){
     }
     getValueToConvert();
     getBaseTemperature();
-
-
-
+    
 }
 export default TemperatureConverter
