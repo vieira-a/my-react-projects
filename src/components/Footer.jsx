@@ -8,8 +8,8 @@ function Footer(){
 
     return (
         
-        <div className="container p-2 my-2 bg-primary text-white">
-            <footer className="py-2 my2">
+        <div className="container p-3 my-3 bg-primary text-white">
+            <footer className="py-3 my3">
                 <p className="text-center">Feito por {author.name}</p>
                 
             </footer>   
