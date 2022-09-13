@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# Sobre
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Meus projetos em React** é uma compilação dos projetos que tenho desenvolvido durante o meu processo de iniciação utilizando React JS.
+Além de novos projetos, revisitarei projetos já desenvolvidos com "Javascript puro" a fim de adaptá-los ao React.
 
-## Available Scripts
+## Como ter acesso aos projetos
 
-In the project directory, you can run:
+- Clone o repositório `git@github.com:vieira-a/react-conversor-de-temperatura.git`
+- Inicie o projeto `npm start`
 
-### `npm start`
+## Projetos
+### Conversor de Temperaturas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Projeto criado para calculo de conversão entre os graus de temperaturas Celcius, Fahrenheit e Kelvin.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Como funciona**
 
-### `npm test`
+- Usuário informa um valor a ser convertido;
+- Seleciona a temperatura base para conversão, entre Celcius, Fahrenheit e Kelvin;
+- Ao selecionar a temperatura base, a aplicação informa o resultado da conversão entre as demais temperaturas.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Tecnologias utilizadas**
 
-### `npm run build`
+- HTML5
+- CSS3
+- Javascript
+- React JS
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Funcionalidades do React JS**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **react-bootstrap** para implementar estilização de forma ágil, consistente e organizada;
+- **react-router-dom** para implementar rotas a fim de construir uma aplicação multi-páginas.
