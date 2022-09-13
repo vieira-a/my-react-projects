@@ -17,11 +17,11 @@ function Navigation(){
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <NavDropdown title="Aplicativos" id="basic-nav-dropdown">
-                <NavDropdown.Item>Calculadora de média</NavDropdown.Item>
-                <NavDropdown.Item>Conversor de moedas</NavDropdown.Item>
+                {/* <NavDropdown.Item>Calculadora de média</NavDropdown.Item>
+                <NavDropdown.Item>Conversor de moedas</NavDropdown.Item> */}
                 <NavDropdown.Item as={Link} to="/temperature" key="2">Conversor de temperaturas</NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item>Projetos no GitHub</NavDropdown.Item>
+                <NavDropdown.Item href="https://www.github.com/vieira-a" target="blank">Projetos no GitHub</NavDropdown.Item>
               </NavDropdown>
             </Nav>
           </Navbar.Collapse>
