@@ -1,9 +1,11 @@
 function Cards(){
 
     const apps = {
+
         name: "Conversor de temperaturas",
         description: "Você seleciona uma temperatura base para conversão; o aplicativo realiza as conversões e mostra o resultado tem tempo real.",
         url: "/temperature"
+
     }
 
     return (
@@ -16,6 +18,6 @@ function Cards(){
             </div>
         </div>
     );
-}
+};
 
 export default Cards;

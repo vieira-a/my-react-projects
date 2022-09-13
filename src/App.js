@@ -1,5 +1,4 @@
 import React from 'react';
-
 import Navigation from './components/Navigation';
 import Footer from './components/Footer';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
@@ -12,11 +11,11 @@ function App() {
         <div>
             <div>
                 <Router>
-                <Navigation />
+                <   Navigation />
         
                 <Routes>
-                <Route path='/' element={<Home/>} />
-                <Route path='/temperature' element={<TemperatureConverter/>} />
+                    <Route path='/' element={<Home/>} />
+                    <Route path='/temperature' element={<TemperatureConverter/>} />
                 </Routes>
                 </Router>
             </div>
@@ -25,6 +24,7 @@ function App() {
             </div>
         </div>
     );
-}
+    
+};
 
 export default App;

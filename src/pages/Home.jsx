@@ -5,6 +5,7 @@ import About from "../components/About";
 
 function Home() {
     return (
+
         <>
         <HomeHeader />
         <div className="container p-5 my-5 border">
@@ -17,6 +18,7 @@ function Home() {
         </div>
         </>
     );
-}
+
+};
 
 export default Home;

@@ -1,5 +1,6 @@
 function About(){
     return (
+
         <div className="presentation">
             <h2>Sobre</h2>
             <p>
@@ -9,19 +10,20 @@ function About(){
             <p></p>
             <hr />
             <h4>Tecnologias utilizadas</h4>
-            Além de utilizar os módulos padrão, pretendo utilizar bibliotecas que auxiliam o desenvolvimento das aplicações com mais agilidade, consistência e organização.
+            Além de utilizar os módulos e funcionalidades padrão para execução de projetos em React, pretendo utilizar bibliotecas que auxiliam o desenvolvimento das aplicações com mais agilidade, consistência e organização.
             <p></p>
             <ul>
                 <li>HML5</li>
                 <li>CSS3</li>
                 <li>Javascript</li>
                 <li>React JS</li>
-                <li>Bootstrap 5</li>
+                <li>Bootstrap</li>
             </ul>
             <p></p>
             <hr />
         </div>
-    )
-}
+
+    );
+};
 
 export default About;

@@ -6,25 +6,25 @@ function TemperatureConverter() {
     const [valueConvert, setValueConvert] = useState(''); //pega a temperatura para converter
     const [temperatureSelect, setTemperatureSelect] = useState('') //seleciona a temperatura base para conversão
 
-    let convertedFahreheit = 0;
-    let convertedCelcius = 0;
-    let convertedKelvin = 0;
+    let convertedFahreheit = '';
+    let convertedCelcius = '';
+    let convertedKelvin = '';
 
     const calculateValue = () => {
         if(temperatureSelect === 'fahrenheit'){
-            fahrenheitToCelcius()
-            fahrenheitToKelvin()
-        }
+            fahrenheitToCelcius();
+            fahrenheitToKelvin();
+        };
 
         if(temperatureSelect === 'celcius'){
-            celciusToFahrenheit()
-            celciusToKelvin()
-        }
+            celciusToFahrenheit();
+            celciusToKelvin();
+        };
 
         if(temperatureSelect === 'kelvin'){
-            kelvinToCelcius()
-            kelvinToFahrenheit()
-        }
+            kelvinToCelcius();
+            kelvinToFahrenheit();
+        };
     }
 
     calculateValue()
@@ -32,32 +32,32 @@ function TemperatureConverter() {
     function celciusToFahrenheit(){
         convertedCelcius = Number(valueConvert);
         convertedFahreheit = ((Number(valueConvert) * 9/5) + 32).toFixed(2);
-    }
+    };
 
     function celciusToKelvin() {
         convertedCelcius = Number(valueConvert);
         convertedKelvin = (Number(valueConvert) + 273.15).toFixed(2);
-    }
+    };
 
     function fahrenheitToCelcius(){
-        convertedFahreheit = Number(valueConvert)
-        convertedCelcius = ((Number(valueConvert) - 32) * 5/9).toFixed(2)
-    }
+        convertedFahreheit = Number(valueConvert);
+        convertedCelcius = ((Number(valueConvert) - 32) * 5/9).toFixed(2);
+    };
 
     function fahrenheitToKelvin() {
-        convertedFahreheit = Number(valueConvert)
-        convertedKelvin = ((Number(valueConvert) - 32) * 5/9 + 273.15).toFixed(2)
-    }
+        convertedFahreheit = Number(valueConvert);
+        convertedKelvin = ((Number(valueConvert) - 32) * 5/9 + 273.15).toFixed(2);
+    };
 
     function kelvinToCelcius(){
-        convertedKelvin = Number(valueConvert)
+        convertedKelvin = Number(valueConvert);
         convertedCelcius = (Number(valueConvert) - 273.15).toFixed(2);    
-    }
+    };
 
     function kelvinToFahrenheit(){
-        convertedKelvin = Number(valueConvert)
-        convertedFahreheit = ((Number(valueConvert) - 273) * 1.8 + 32).toFixed(2)
-    }
+        convertedKelvin = Number(valueConvert);
+        convertedFahreheit = ((Number(valueConvert) - 273) * 1.8 + 32).toFixed(2);
+    };
 
     return(
         <> 
@@ -89,7 +89,6 @@ function TemperatureConverter() {
         </div>
         <div className="result">
             <h5>Resultado da conversão</h5>
-            
             <div className="input-group mb-3">
                 <span style={{width: "100px"}} className="input-group-text">Celcius</span>
                 <input type="text" className="form-control" name="resultCelcius" readOnly="readonly" value={convertedCelcius}></input>
@@ -105,7 +104,9 @@ function TemperatureConverter() {
         </div>
         </div>
         </>
-    );   
+
+    );  
+
 }
 
-export default TemperatureConverter
+export default TemperatureConverter;
