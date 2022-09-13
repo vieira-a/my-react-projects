@@ -24,6 +24,7 @@ function Navigation(){
                 <NavDropdown.Item>Conversor de moedas</NavDropdown.Item> */}
                 <NavDropdown.Item as={Link} to="/temperature" key="2">Conversor de temperaturas</NavDropdown.Item>
                 <NavDropdown.Divider />
+                <NavDropdown.Item as={Link} to={'/'} key="3">Home</NavDropdown.Item>
                 <NavDropdown.Item href="https://www.github.com/vieira-a" target="blank">Projetos no GitHub</NavDropdown.Item>
               </NavDropdown>
             </Nav>
