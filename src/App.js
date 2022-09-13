@@ -8,23 +8,16 @@ import TemperatureConverter from './pages/Temperatures';
 function App() {
     return (
 
-        <div>
-            <div>
-                <Router>
-                <   Navigation />
-        
-                <Routes>
-                    <Route path='/' element={<Home/>} />
-                    <Route path='/temperature' element={<TemperatureConverter/>} />
-                </Routes>
-                </Router>
-            </div>
-            <div>
-                <Footer />
-            </div>
-        </div>
-    );
+        <Router>
+            <Navigation/>
+            <Routes>
+            <Route exact path='/' element={<Home/>} />
+            <Route path='/temperature' element={<TemperatureConverter/>} />
+            </Routes>
+        <Footer />
+        </Router>
     
+    );
 };
 
 export default App;

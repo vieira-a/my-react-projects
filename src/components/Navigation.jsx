@@ -9,7 +9,7 @@ function Navigation(){
     
   return(
   
-      <div>
+      <>
       <Navbar bg="light" expand="lg">
         <Container>
           <Navbar.Brand as={Link} to={'/'} key="1">M P R</Navbar.Brand>
@@ -27,7 +27,7 @@ function Navigation(){
           </Navbar.Collapse>
         </Container>
       </Navbar>
-    </div>
+    </>
 
     );
   
