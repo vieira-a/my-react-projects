@@ -1,6 +1,6 @@
 import { IoMailOutline, IoLogoLinkedin } from "react-icons/io5";
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import styles from './Footer.module.css'
+import styles from '../styles/components/Footer.module.sass'
 
 function Footer(){
     

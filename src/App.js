@@ -5,6 +5,8 @@ import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Home from './pages/Home';
 import TemperatureConverter from './pages/Temperatures';
 
+import "./styles/main.sass"
+
 function App() {
     return (
 
