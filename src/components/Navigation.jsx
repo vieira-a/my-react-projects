@@ -4,6 +4,8 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import { IoLogoReact } from "react-icons/io5";
+import styles from './Navigation.module.css'
 
 function Navigation(){
     
@@ -12,7 +14,8 @@ function Navigation(){
       <>
       <Navbar bg="light" expand="lg">
         <Container>
-          <Navbar.Brand as={Link} to={'/'} key="1">M P R</Navbar.Brand>
+          <Navbar.Brand className={styles.navLogo} as={Link} to={'/'} key="1"><IoLogoReact/>M P R
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
