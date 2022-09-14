@@ -1,0 +1,12 @@
+@use '../variables'
+@use '../mixins'
+
+.navBar
+    @include mixins.flex-center
+    gap: 1rem
+    font-size: 2.2rem
+    font-weight: bold
+    color: variables.$ff-color-platinum
+
+    &:hover
+        color: variables.$ff-color-celeste
