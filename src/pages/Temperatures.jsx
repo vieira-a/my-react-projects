@@ -62,7 +62,6 @@ function TemperatureConverter() {
     return(
         <> 
         <TemperatureHeader/>
-
         <div className="container p-4 my-4">
             <section>
                 <h5>Informe o valor a ser convertido</h5>

@@ -4,7 +4,7 @@ function Cards(){
 
     const apps = {
 
-        name: "Conversor de temperaturas",
+        name: "Conversor de escalas de temperaturas",
         description: "Você seleciona uma temperatura base para conversão; o aplicativo realiza as conversões e mostra o resultado tem tempo real.",
         url: "/temperature"
 

@@ -14,8 +14,7 @@ function TemperatureHeader(){
                 </ul>
             </div>
         </div>
-    );
-    
+    );  
 };
 
 export default TemperatureHeader;

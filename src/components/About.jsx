@@ -1,6 +1,5 @@
 import "../styles/components/About.module.sass"
 
-
 function About(){
     return (
         <section>
