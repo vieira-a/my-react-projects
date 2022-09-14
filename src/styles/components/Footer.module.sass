@@ -1,10 +1,12 @@
-.socialLinks
-    display: flex
-    justify-content: center
-    align-items: center
-    gap: 1em
-    list-style: none
+@use '../variables'
+@use '../mixins'
+    
 
-.socialLinks svg
-    font-size: 2em
-
+footer ul
+    @include mixins.flex-center
+    flex-direction: row
+    
+footer p
+    color: variables.$ff-color-celeste        
+            
+            

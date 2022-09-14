@@ -1,0 +1,24 @@
+@use '../variables'
+@use '../mixins'
+
+ul
+    @include mixins.grid-center-2
+    justify-items: left
+    
+    flex-direction: column
+    gap: 2rem
+    padding-block: 2rem
+    color: variables.$ff-color-gray
+
+    li 
+        @include mixins.flex-center
+        gap: .5rem
+
+        svg
+            font-size: 1.8rem
+            color: variables.$ff-color-celeste
+
+        &:hover
+            color: variables.$ff-color-gray
+            
+            

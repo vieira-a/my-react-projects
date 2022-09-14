@@ -1,0 +1,17 @@
+@use '../variables'
+@use '../mixins'
+
+.projectCards
+    padding: 2rem
+    margin-top: 2rem
+    border: variables.$border
+    border-radius: variables.$border-radius
+
+.btns
+    @include mixins.btns
+    padding: .5rem 1rem
+
+    &:hover
+        background-color: variables.$bg-color-black-2
+        color: variables.$ff-color-gray
+

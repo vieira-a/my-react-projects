@@ -1,3 +1,5 @@
+import styles from '../styles/components/Cards.module.sass'
+
 function Cards(){
 
     const apps = {
@@ -9,12 +11,12 @@ function Cards(){
     }
 
     return (
-
-        <div className="card">
-            <h5 className="card-header">{apps.name}</h5>
-            <div className="card-body">
-                <p className="card-text">{apps.description}</p>
-                <a href={apps.url} className="btn btn-primary">Acesse</a>
+        
+        <div className={styles.projectCards}>
+            <h5>{apps.name}</h5>
+            <div>
+                <p>{apps.description}</p>
+                <a href={apps.url} className={styles.btns}>Acesse</a>
             </div>
         </div>
     );
