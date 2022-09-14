@@ -1,5 +1,5 @@
 import { IoMailOutline, IoLogoLinkedin } from "react-icons/io5";
-import '../styles/components/Footer.module.sass';
+import styles from '../styles/components/Footer.module.sass';
 
 function Footer(){
     
@@ -10,19 +10,19 @@ function Footer(){
     };
 
     return (
-        
-        <footer className="py-4 text-center bg-dark">
-        <p>Desenvolvido por {author.name}</p>
-        <ul>
-            <li>
-                <p><a href={author.linkedin}><IoLogoLinkedin/></a></p>
-            </li>
-            <li>
-                <p><a href={author.email}><IoMailOutline/></a></p>
-            </li>
-        </ul>
-        </footer>   
-
+        <div className="py-4 text-center bg-dark">
+            <footer>
+                <p>Desenvolvido por {author.name}</p>
+                <ul>
+                    <li>
+                    <p><a href={author.linkedin}><IoLogoLinkedin/></a></p>
+                    </li>
+                    <li>
+                    <p><a href={author.email}><IoMailOutline/></a></p>
+                    </li>
+                </ul>
+            </footer> 
+        </div>  
     );
 };
 
