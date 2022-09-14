@@ -12,13 +12,13 @@ Além de novos projetos, revisitarei projetos já desenvolvidos com "Javascript 
 ## Projeto
 ### Conversor de Temperaturas
 
-Projeto criado para calculo de conversão entre os graus de temperaturas Celcius, Fahrenheit e Kelvin.
+O primeiro App desenvolvido entre **Meus projetos em React**. Criado para calculo de conversão entre as escalas de temperaturas: Celcius, Fahrenheit e Kelvin.
 
 **Como funciona**
 
-- Informe um valor a ser convertido;
-- Selecione a temperatura base para conversão, entre Celcius, Fahrenheit e Kelvin;
-- Ao selecionar a temperatura base, a aplicação informa o resultado da conversão entre a temperatura base e as demais temperaturas.
+- Você informa um valor a ser convertido;
+- Você selecione a escala de temperatura base para conversão, entre Celcius, Fahrenheit e Kelvin;
+- Ao selecionar a temperatura base, a aplicação informa o resultado da conversão entre as escalas.
 
 #### Tecnologias utilizadas
 
@@ -26,16 +26,26 @@ Projeto criado para calculo de conversão entre os graus de temperaturas Celcius
 - CSS3
 - Javascript
 - React JS
+- Bootstrap
+- Sass
 
 **Funcionalidades do React JS**
 
 - **react-bootstrap** para implementar estilização de forma ágil, consistente e organizada;
 - **react-router-dom** para implementar rotas a fim de construir uma aplicação multi-páginas.
+- **react-icons** para adicionar icones ao projeto
+
+#### Expectativas de aprendizado
+- Como criar uma aplicação básica com React JS
 
 #### O que aprendi
 
-- Organizar projeto em React;
-- Utilizar **react componentes** para facilitar organização e manutenção dos recursos;
-- Utilizar **react-router** para criar multi apps;
-- Manipulação de elementos do DOM utilizando **useState**;
-- Trabalhar com CSS no React.
+Além de criar uma aplicação básica com React JS:
+
+- Como organizar projeto em React;
+- Como utilizar **react componentes** para facilitar organização e manutenção dos recursos;
+- Como utilizar **react-router** para criar uma aplicação multi páginas;
+- Como manipulação elementos do Virtual DOM utilizando **useState**;
+- Como trabalhar com CSS no React;
+- Como trabalhar com Bootstrap no React;
+- Como trabalhar Sass.
