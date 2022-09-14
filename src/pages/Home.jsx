@@ -9,7 +9,7 @@ function Home() {
 
         <>
         <HomeHeader />
-        <div className="container p-5 my-5 border-0">
+        <div className="container p-4 my-4">
         <About/>
         <Stacks/>
         <Projects/>

@@ -1,15 +1,14 @@
 @use '../variables'
 @use '../mixins'
 
-ul
+.stacks ul
     @include mixins.grid-center-2
     justify-items: left
     
-    flex-direction: column
-    gap: 2rem
-    padding-block: 2rem
+    gap: 1rem
+    padding-block: 1rem
     color: variables.$ff-color-gray
-
+    
     li 
         @include mixins.flex-center
         gap: .5rem
