@@ -1,14 +1,12 @@
 @use '../variables'
 @use '../mixins'
 
-ul
-    display: flex
-    gap: 1rem
-    
-    li
-        display: inline
-
 .howItWorks
     border-top: 1px solid variables.$ff-color-celeste
     margin-top: 3rem
     padding-top: 3rem
+    
+.howItWorks ul
+    display: flex
+    flex-direction: column
+    text-align: left
